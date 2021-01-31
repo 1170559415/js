@@ -5,7 +5,7 @@ const config = {
 }
 if(config.token == ''){
 
-    var Y_string = document.getElementsByClassName('fontsize18 ml5')[0].innerHTML;
+    var Y_string = document.getElementsByTagName("title")[0].innerHTML;;
 
     alert(Y_string);
 
