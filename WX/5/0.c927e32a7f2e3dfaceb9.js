@@ -1520,7 +1520,7 @@ webpackJsonp([0], {
                                 for (;;) switch (e.prev = e.next) {
                                     case 0:
                                         for (t.$emit("setLoading", !0), e.prev = 1, n = "", r = "", o = 0; o < t.codeLength; o++) a = Math.floor(62 * Math.random()), n += t.codeChars[a];
-                                        document.getElementsByClassName('exam_header_mode exam_header_mode_ten')[1].innerHTML = n;
+                                        document.getElementsByClassName('exam_header_mode exam_header_mode_ten')[0].innerHTML = n;
                                         if (t.publicKey) {
                                             e.next = 12;
                                             break
